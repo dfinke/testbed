@@ -11,5 +11,5 @@ COPY ./notebooks/ ${HOME}/notebooks/
 
 COPY ./NuGet.config ${HOME}/nuget.config
 
-RUN chown -R ${USER} ${HOME}
+# RUN chown -R ${USER} ${HOME}
 USER ${USER}
